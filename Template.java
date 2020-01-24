@@ -1,14 +1,16 @@
-import java.util.Scanner;
+import java.io.IOException;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 
 /**
- * Template
+ * Beakjoon 제출 Template
  */
-public class Template {
+public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException{
         
         // input
-        Scanner scanner = new Scanner(System.in);
+        BufferedReader br = new BuffredReader(new InputStreamReader(System.in));
 
         // output
         System.out.println(/*answer*/);
