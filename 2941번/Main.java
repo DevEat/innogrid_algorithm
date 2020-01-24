@@ -17,5 +17,7 @@ public class Main {
         }
 
         System.out.print(input.length());
+
+        scanner.close();
     }
 }
