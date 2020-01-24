@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+/**
+ 소스인사이드 104ms
+ */
 public class Main {
 
     public static void main(String[] args) {
