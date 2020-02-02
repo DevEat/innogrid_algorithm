@@ -3,7 +3,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
- 
 소트인사이드 80ms : BufferedReader로 변경만 했을 뿐인데도 24ms 빨라짐
 
 속도 측면에서 빠른 풀이들은 BufferedReader를 사용
@@ -32,7 +31,6 @@ InputStreamReader는 문자열을 Character 단위(한 글자)로 읽으므로
 그렇기 때문에 속도가 향상되고 시간 부하가 적음
 BufferedReader는 입력을 라인단위로 입력 받기 때문에 공백의 경우에도 String으로 인식하여 받아들이며,
 입력받은 데이터 타입이 String 타입이므로 다른 타입의 데이터라면 이후 형변환이 필요
-
  */
 public class Main2 {
 

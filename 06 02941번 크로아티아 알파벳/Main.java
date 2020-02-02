@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- 크로아티아 알파벳 104ms
+ * 크로아티아 알파벳 104ms
  */
 public class Main {
 

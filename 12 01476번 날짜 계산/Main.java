@@ -5,7 +5,7 @@ import java.util.StringTokenizer;
 
 public class Main {
 
-    public static void main(String[] args) throws IOException{
+    public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         StringTokenizer st = new StringTokenizer(br.readLine(), " ");
@@ -14,10 +14,10 @@ public class Main {
         int M = Integer.parseInt(st.nextToken());
 
         int year = 0;
-        
-        while(true){
+
+        while (true) {
             year++;
-            if ((year - E) % 15 == 0 && (year - S) % 28 == 0 && (year - M) % 19 == 0){
+            if ((year - E) % 15 == 0 && (year - S) % 28 == 0 && (year - M) % 19 == 0) {
                 break;
             }
         }

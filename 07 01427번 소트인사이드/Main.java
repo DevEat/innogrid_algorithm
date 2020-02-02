@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- 소스인사이드 104ms
+ * 소스인사이드 104ms
  */
 public class Main {
 

@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) throws IOException{
         
         // input
-        BufferedReader br = new BuffredReader(new InputStreamReader(System.in));
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         // output
         System.out.println(/*answer*/);
