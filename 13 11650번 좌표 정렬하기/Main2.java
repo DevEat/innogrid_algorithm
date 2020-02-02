@@ -33,8 +33,12 @@ public class Main2 {
 			}
 		});
 
+		StringBuilder sb = new StringBuilder();
+
 		for (int i = 0; i < n; i++) {
-			System.out.println(xy[i][0] + " " + xy[i][1]);
+			sb.append(xy[i][0] + " " + xy[i][1] + "\n");
 		}
+
+		System.out.println(sb);
 	}
 }

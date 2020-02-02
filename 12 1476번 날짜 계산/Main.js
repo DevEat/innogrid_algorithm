@@ -1,5 +1,8 @@
 // var input = require('fs').readFileSync('/dev/stdin').toString().split('\n');
 
+/**
+ * 메모리 초과
+ */
 var input = '1 1 1';
 
 const E = input.split(' ')[0];
