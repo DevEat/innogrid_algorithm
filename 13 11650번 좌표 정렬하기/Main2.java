@@ -6,7 +6,7 @@ import java.util.Comparator;
 import java.util.StringTokenizer;
 
 /**
- * 좌표 정렬하기 632ms
+ * 좌표 정렬하기  
  */
 public class Main2 {
 
