@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 /**
- * K번째 수 시간 초과 
+ * K번째 수 1284ms
  */
 public class Main5 {
 
