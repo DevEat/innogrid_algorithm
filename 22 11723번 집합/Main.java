@@ -5,24 +5,16 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 
-import sun.management.resources.agent_ja;
+/**
+ * 집합 912ms
+ * 
+ * java bit 연산자 ~ : 비트를 반전 & : 두 비트 모두 1일 때 1 | : 두 비트 중 하나만 1이라도 1 ^ : 두 비트가 다를
+ * 때 1 << : 비트를 왼쪽으로 이동 >> : 비트를 오른쪽으로 사라지게함 >>> : 비트를 오른쪽으로 이동(빈공간을 0으로 채움)
+ */
 
 public class Main {
 
-    /**
-     * 집합 912ms
-     * 
-     * java bit 연산자
-     * ~ : 비트를 반전
-     * & : 두 비트 모두 1일 때 1
-     * | : 두 비트 중 하나만 1이라도 1
-     * ^ : 두 비트가 다를 때 1
-     * << : 비트를 왼쪽으로 이동
-     * >> : 비트를 오른쪽으로 사라지게함
-     * >>> : 비트를 오른쪽으로 이동(빈공간을 0으로 채움)
-     */
-
-    public static void main(String[] args) throws IOException{
+    public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         StringBuilder answer = new StringBuilder();
