@@ -39,7 +39,9 @@ public class Main {
 
         int sum = 0;
         for (int i = 0; i < arr.length; i++)
-            if (arr[i] == 1) sum++;
+            if (arr[i] == 1)
+                sum++;
+
         System.out.print(sum);
     }
 }
