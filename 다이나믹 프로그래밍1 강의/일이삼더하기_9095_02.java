@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
-public class Baek15990 {
+public class 일이삼더하기_9095_02 {
 
     BufferedReader br;
     BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
@@ -31,6 +31,6 @@ public class Baek15990 {
     }
 
     public static void main(String[] args) throws IOException {
-        new Baek15990().Solve();
+        new 일이삼더하기_9095_02().Solve();
     }
 }

@@ -1,8 +1,4 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.Scanner;
-import java.util.StringTokenizer;
 
 /**
  * baek11052 카드 구매하기1 184ms
@@ -12,7 +8,7 @@ import java.util.StringTokenizer;
  *
  * 출력 카드 N개를 갖기 위해 지불해야 하는 금액의 최댓값을 출력
  */
-public class Baek11052 {
+public class 카드구매하기1_11052 {
     public static int compare(int a, int b) {
         return a > b ? a : b;
     }

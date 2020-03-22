@@ -8,7 +8,7 @@ import java.util.Scanner;
  *
  * 출력 카드 N개를 갖기 위해 지불해야 하는 금액의 최솟값을 출력
  */
-public class Baek16194 {
+public class 카드구매하기2_16194 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

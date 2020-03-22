@@ -3,7 +3,7 @@ import java.util.Scanner;
 /**
  * Bottom-up 1로 만들기
  */
-public class MakeNtoOne {
+public class 일로만들기_1463_01 {
     static int[] d;
 
     public static void main(String[] args) {
